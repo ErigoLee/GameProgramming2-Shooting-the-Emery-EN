@@ -22,12 +22,75 @@ A lone soldier is deployed behind enemy lines, dodging fire and eliminating foes
 
 ## 3. Code description
 (1) AIController.cs
-Defines the enemy finite-state machine:
+- Defines the enemy finite-state machine:
  ```csharp
   public enum FSMState {
       None, Patrol, Chase, Flee, // runaway
       Attack, Dead
-  }
+  } ```
+
+- State transitions by player distance. Example from UpdatePatrolState():
+ ```csharp
+if (Distance(patrolDestination, transform.position) < 50.0f) {
+    FindNextPoint();
+} else if (Distance(playerTransform.position, transform.position) < 200.0f) {
+    // Switch to Chase or Flee
+    int probability = Random.Range(0, chaseProbability + fleeProbability);
+    curState = (probability < chaseProbability) ? FSMState.Chase : FSMState.Flee;
+} ```
+
+- Obstacle avoidance with Raycast. Look ahead and steer away when an obstacle is detected (layer mask 1 << 9):
+Raycasts are used to detect obstacles in front and prevent collisions by adjusting heading.
+```csharp
+int layerMask = 1 << 9;
+		if (Physics.Raycast (transform.position, transform.forward, out hit, minumDistToAvoid, layerMask)) {
+			//Vector3 hitNormal = hit.normal;
+			//hitNormal.y = 0;
+			//targetRotation = Quaternion.LookRotation(transform.forward+hitNormal*50.0f);
+			print ("Obstacle!! lookfor");
+			int a = Random.Range (0,2);
+			if(a==0)
+				transform.Rotate(new Vector3(transform.rotation.x,transform.rotation.y-60.0f,transform.rotation.z));
+			else
+				transform.Rotate(new Vector3(transform.rotation.x,transform.rotation.y+60.0f,transform.rotation.z));
+
+			transform.Rotate (new Vector3 (transform.rotation.x, transform.rotation.y - 60.0f, transform.rotation.z));
+			//transform.rotation = Quaternion.Slerp (transform.rotation,targetRotation,Time.deltaTime*curRotSpeed);
+			obSwtich = true;
+		}```
+
+(2) PlayerController.cs
+- Fire on left mouse release. Play SFX/animation and stop forward/back motion during the shot:
+```csharp
+if (Input.GetMouseButtonUp(0)) {
+    GetComponent<AudioSource>().PlayOneShot(shootBefore);
+    GetComponent<Animation>().Play("Shooting");
+    shootingAni = true;
+    targetSpeed = 0.0f;
+}```
+
+- Movement & animation blending. W/S moves forward/back and cross-fades to walking; no input cross-fades to Idle
+```csharp
+if (!shootingAni) {
+    if (Input.GetKey(KeyCode.W)) {
+        gameObject.GetComponent<Animation>().CrossFade("walking", 0.1f);
+        targetSpeed = maxForwardSpeed;
+    } else if (Input.GetKey(KeyCode.S)) {
+        gameObject.GetComponent<Animation>().CrossFade("walking", 0.1f);
+        targetSpeed = maxBackwardSpeed;
+    } else {
+        gameObject.GetComponent<Animation>().CrossFade("Idle", 0.1f);
+        targetSpeed = 0.0f;
+    }
+}```
+
+- Turning & smoothing. A/D rotates left/right; speed transitions are smoothed with Mathf.Lerp to avoid abrupt changes:
+```csharp
+if (Input.GetKey(KeyCode.A))      rotSpeed = maxLeftAngle;
+else if (Input.GetKey(KeyCode.D)) rotSpeed = maxRightAngle;
+
+curSpeed = Mathf.Lerp(curSpeed, targetSpeed, 7.0f * Time.deltaTime);
+```
 
 ## 4. How to play?
 ### Title Screen

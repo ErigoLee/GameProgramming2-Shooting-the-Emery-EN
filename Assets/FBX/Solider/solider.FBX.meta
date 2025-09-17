@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: a592aaf8078b32048a71a4a15a0b93fb
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: group2_group1_polySurface18
+    100002: group2_group1_polySurface4_polySurface6_polySurface48
+    100004: group2_group1_polySurface4_polySurface6_polySurface49
+    100006: group2_group1_polySurface4_polySurface6_polySurface55
+    100008: group2_group1_polySurface4_polySurface6_polySurface59
+    100010: group2_group1_polySurface4_polySurface7_polySurface6
+    100012: group2_group1_polySurface5_polySurface4
+    100014: group2_polySurface3_group1
+    100016: group2_polySurface63
+    100018: group2_polySurface64
+    100020: polySurface62_group2
+    100022: Soldier
+    100024: Soldier Head
+    100026: Soldier L Calf
+    100028: Soldier L Clavicle
+    100030: Soldier L Finger0
+    100032: Soldier L Finger01
+    100034: Soldier L Finger02
+    100036: Soldier L Finger1
+    100038: Soldier L Finger11
+    100040: Soldier L Finger12
+    100042: Soldier L Finger2
+    100044: Soldier L Finger21
+    100046: Soldier L Finger22
+    100048: Soldier L Finger3
+    100050: Soldier L Finger31
+    100052: Soldier L Finger32
+    100054: Soldier L Finger4
+    100056: Soldier L Finger41
+    100058: Soldier L Finger42
+    100060: Soldier L Foot
+    100062: Soldier L Forearm
+    100064: Soldier L Hand
+    100066: Soldier L Thigh
+    100068: Soldier L Toe0
+    100070: Soldier L UpperArm
+    100072: Soldier Neck
+    100074: Soldier Neck1
+    100076: Soldier Pelvis
+    100078: Soldier R Calf
+    100080: Soldier R Clavicle
+    100082: Soldier R Finger0
+    100084: Soldier R Finger01
+    100086: Soldier R Finger02
+    100088: Soldier R Finger1
+    100090: Soldier R Finger11
+    100092: Soldier R Finger12
+    100094: Soldier R Finger2
+    100096: Soldier R Finger21
+    100098: Soldier R Finger22
+    100100: Soldier R Finger3
+    100102: Soldier R Finger31
+    100104: Soldier R Finger32
+    100106: Soldier R Finger4
+    100108: Soldier R Finger41
+    100110: Soldier R Finger42
+    100112: Soldier R Foot
+    100114: Soldier R Forearm
+    100116: Soldier R Hand
+    100118: Soldier R Thigh
+    100120: Soldier R Toe0
+    100122: Soldier R UpperArm
+    100124: Soldier Spine
+    100126: Soldier Spine1
+    100128: Soldier Spine2
+    100130: Soldier_mesh
+    100132: //RootNode
+    400000: group2_group1_polySurface18
+    400002: group2_group1_polySurface4_polySurface6_polySurface48
+    400004: group2_group1_polySurface4_polySurface6_polySurface49
+    400006: group2_group1_polySurface4_polySurface6_polySurface55
+    400008: group2_group1_polySurface4_polySurface6_polySurface59
+    400010: group2_group1_polySurface4_polySurface7_polySurface6
+    400012: group2_group1_polySurface5_polySurface4
+    400014: group2_polySurface3_group1
+    400016: group2_polySurface63
+    400018: group2_polySurface64
+    400020: polySurface62_group2
+    400022: Soldier
+    400024: Soldier Head
+    400026: Soldier L Calf
+    400028: Soldier L Clavicle
+    400030: Soldier L Finger0
+    400032: Soldier L Finger01
+    400034: Soldier L Finger02
+    400036: Soldier L Finger1
+    400038: Soldier L Finger11
+    400040: Soldier L Finger12
+    400042: Soldier L Finger2
+    400044: Soldier L Finger21
+    400046: Soldier L Finger22
+    400048: Soldier L Finger3
+    400050: Soldier L Finger31
+    400052: Soldier L Finger32
+    400054: Soldier L Finger4
+    400056: Soldier L Finger41
+    400058: Soldier L Finger42
+    400060: Soldier L Foot
+    400062: Soldier L Forearm
+    400064: Soldier L Hand
+    400066: Soldier L Thigh
+    400068: Soldier L Toe0
+    400070: Soldier L UpperArm
+    400072: Soldier Neck
+    400074: Soldier Neck1
+    400076: Soldier Pelvis
+    400078: Soldier R Calf
+    400080: Soldier R Clavicle
+    400082: Soldier R Finger0
+    400084: Soldier R Finger01
+    400086: Soldier R Finger02
+    400088: Soldier R Finger1
+    400090: Soldier R Finger11
+    400092: Soldier R Finger12
+    400094: Soldier R Finger2
+    400096: Soldier R Finger21
+    400098: Soldier R Finger22
+    400100: Soldier R Finger3
+    400102: Soldier R Finger31
+    400104: Soldier R Finger32
+    400106: Soldier R Finger4
+    400108: Soldier R Finger41
+    400110: Soldier R Finger42
+    400112: Soldier R Foot
+    400114: Soldier R Forearm
+    400116: Soldier R Hand
+    400118: Soldier R Thigh
+    400120: Soldier R Toe0
+    400122: Soldier R UpperArm
+    400124: Soldier Spine
+    400126: Soldier Spine1
+    400128: Soldier Spine2
+    400130: Soldier_mesh
+    400132: //RootNode
+    2300000: group2_group1_polySurface18
+    2300002: group2_group1_polySurface4_polySurface6_polySurface48
+    2300004: group2_group1_polySurface4_polySurface6_polySurface49
+    2300006: group2_group1_polySurface4_polySurface6_polySurface55
+    2300008: group2_group1_polySurface4_polySurface6_polySurface59
+    2300010: group2_group1_polySurface4_polySurface7_polySurface6
+    2300012: group2_group1_polySurface5_polySurface4
+    2300014: group2_polySurface3_group1
+    2300016: group2_polySurface63
+    2300018: group2_polySurface64
+    2300020: polySurface62_group2
+    3300000: group2_group1_polySurface18
+    3300002: group2_group1_polySurface4_polySurface6_polySurface48
+    3300004: group2_group1_polySurface4_polySurface6_polySurface49
+    3300006: group2_group1_polySurface4_polySurface6_polySurface55
+    3300008: group2_group1_polySurface4_polySurface6_polySurface59
+    3300010: group2_group1_polySurface4_polySurface7_polySurface6
+    3300012: group2_group1_polySurface5_polySurface4
+    3300014: group2_polySurface3_group1
+    3300016: group2_polySurface63
+    3300018: group2_polySurface64
+    3300020: polySurface62_group2
+    4300000: polySurface62_group2
+    4300002: group2_group1_polySurface4_polySurface6_polySurface48
+    4300004: group2_group1_polySurface4_polySurface6_polySurface49
+    4300006: group2_group1_polySurface4_polySurface6_polySurface55
+    4300008: group2_group1_polySurface4_polySurface6_polySurface59
+    4300010: group2_group1_polySurface4_polySurface7_polySurface6
+    4300012: group2_group1_polySurface5_polySurface4
+    4300014: group2_group1_polySurface18
+    4300016: group2_polySurface3_group1
+    4300018: group2_polySurface63
+    4300020: group2_polySurface64
+    4300022: Soldier_mesh
+    7400000: walking
+    7400002: Shooting
+    7400004: Idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Soldier_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walking
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: polySurface62_group2
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface4_polySurface6_polySurface48
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface4_polySurface6_polySurface49
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface4_polySurface6_polySurface55
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface4_polySurface6_polySurface59
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface4_polySurface7_polySurface6
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface5_polySurface4
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface18
+        weight: 1
+      - path: polySurface62_group2/group2_polySurface3_group1
+        weight: 1
+      - path: polySurface62_group2/group2_polySurface63
+        weight: 1
+      - path: polySurface62_group2/group2_polySurface64
+        weight: 1
+      - path: Soldier
+        weight: 1
+      - path: Soldier/Soldier Pelvis
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier L Thigh
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier L Thigh/Soldier L Calf
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier L Thigh/Soldier L Calf/Soldier
+          L Foot
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier L Thigh/Soldier L Calf/Soldier
+          L Foot/Soldier L Toe0
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier R Thigh
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier R Thigh/Soldier R Calf
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier R Thigh/Soldier R Calf/Soldier
+          R Foot
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier R Thigh/Soldier R Calf/Soldier
+          R Foot/Soldier R Toe0
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger0
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger0/Soldier L Finger01
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger0/Soldier L Finger01/Soldier L Finger02
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger1
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger1/Soldier L Finger11
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger1/Soldier L Finger11/Soldier L Finger12
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger2
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger2/Soldier L Finger21
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger2/Soldier L Finger21/Soldier L Finger22
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger3
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger3/Soldier L Finger31
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger3/Soldier L Finger31/Soldier L Finger32
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger4
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger4/Soldier L Finger41
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger4/Soldier L Finger41/Soldier L Finger42
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier Neck1
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier Neck1/Soldier Head
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger0
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger0/Soldier R Finger01
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger0/Soldier R Finger01/Soldier R Finger02
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger1
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger1/Soldier R Finger11
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger1/Soldier R Finger11/Soldier R Finger12
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger2
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger2/Soldier R Finger21
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger2/Soldier R Finger21/Soldier R Finger22
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger3
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger3/Soldier R Finger31
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger3/Soldier R Finger31/Soldier R Finger32
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger4
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger4/Soldier R Finger41
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger4/Soldier R Finger41/Soldier R Finger42
+        weight: 1
+      - path: Soldier_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Shooting
+      takeName: Take 001
+      firstFrame: 46
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: polySurface62_group2
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface4_polySurface6_polySurface48
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface4_polySurface6_polySurface49
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface4_polySurface6_polySurface55
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface4_polySurface6_polySurface59
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface4_polySurface7_polySurface6
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface5_polySurface4
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface18
+        weight: 1
+      - path: polySurface62_group2/group2_polySurface3_group1
+        weight: 1
+      - path: polySurface62_group2/group2_polySurface63
+        weight: 1
+      - path: polySurface62_group2/group2_polySurface64
+        weight: 1
+      - path: Soldier
+        weight: 1
+      - path: Soldier/Soldier Pelvis
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier L Thigh
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier L Thigh/Soldier L Calf
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier L Thigh/Soldier L Calf/Soldier
+          L Foot
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier L Thigh/Soldier L Calf/Soldier
+          L Foot/Soldier L Toe0
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier R Thigh
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier R Thigh/Soldier R Calf
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier R Thigh/Soldier R Calf/Soldier
+          R Foot
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier R Thigh/Soldier R Calf/Soldier
+          R Foot/Soldier R Toe0
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger0
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger0/Soldier L Finger01
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger0/Soldier L Finger01/Soldier L Finger02
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger1
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger1/Soldier L Finger11
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger1/Soldier L Finger11/Soldier L Finger12
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger2
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger2/Soldier L Finger21
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger2/Soldier L Finger21/Soldier L Finger22
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger3
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger3/Soldier L Finger31
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger3/Soldier L Finger31/Soldier L Finger32
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger4
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger4/Soldier L Finger41
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger4/Soldier L Finger41/Soldier L Finger42
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier Neck1
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier Neck1/Soldier Head
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger0
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger0/Soldier R Finger01
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger0/Soldier R Finger01/Soldier R Finger02
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger1
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger1/Soldier R Finger11
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger1/Soldier R Finger11/Soldier R Finger12
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger2
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger2/Soldier R Finger21
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger2/Soldier R Finger21/Soldier R Finger22
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger3
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger3/Soldier R Finger31
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger3/Soldier R Finger31/Soldier R Finger32
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger4
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger4/Soldier R Finger41
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger4/Soldier R Finger41/Soldier R Finger42
+        weight: 1
+      - path: Soldier_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 45.0999985
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: polySurface62_group2
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface4_polySurface6_polySurface48
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface4_polySurface6_polySurface49
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface4_polySurface6_polySurface55
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface4_polySurface6_polySurface59
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface4_polySurface7_polySurface6
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface5_polySurface4
+        weight: 1
+      - path: polySurface62_group2/group2_group1_polySurface18
+        weight: 1
+      - path: polySurface62_group2/group2_polySurface3_group1
+        weight: 1
+      - path: polySurface62_group2/group2_polySurface63
+        weight: 1
+      - path: polySurface62_group2/group2_polySurface64
+        weight: 1
+      - path: Soldier
+        weight: 1
+      - path: Soldier/Soldier Pelvis
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier L Thigh
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier L Thigh/Soldier L Calf
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier L Thigh/Soldier L Calf/Soldier
+          L Foot
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier L Thigh/Soldier L Calf/Soldier
+          L Foot/Soldier L Toe0
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier R Thigh
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier R Thigh/Soldier R Calf
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier R Thigh/Soldier R Calf/Soldier
+          R Foot
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier R Thigh/Soldier R Calf/Soldier
+          R Foot/Soldier R Toe0
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger0
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger0/Soldier L Finger01
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger0/Soldier L Finger01/Soldier L Finger02
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger1
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger1/Soldier L Finger11
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger1/Soldier L Finger11/Soldier L Finger12
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger2
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger2/Soldier L Finger21
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger2/Soldier L Finger21/Soldier L Finger22
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger3
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger3/Soldier L Finger31
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger3/Soldier L Finger31/Soldier L Finger32
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger4
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger4/Soldier L Finger41
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier L Clavicle/Soldier L UpperArm/Soldier L Forearm/Soldier L Hand/Soldier
+          L Finger4/Soldier L Finger41/Soldier L Finger42
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier Neck1
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier Neck1/Soldier Head
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger0
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger0/Soldier R Finger01
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger0/Soldier R Finger01/Soldier R Finger02
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger1
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger1/Soldier R Finger11
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger1/Soldier R Finger11/Soldier R Finger12
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger2
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger2/Soldier R Finger21
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger2/Soldier R Finger21/Soldier R Finger22
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger3
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger3/Soldier R Finger31
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger3/Soldier R Finger31/Soldier R Finger32
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger4
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger4/Soldier R Finger41
+        weight: 1
+      - path: Soldier/Soldier Pelvis/Soldier Spine/Soldier Spine1/Soldier Spine2/Soldier
+          Neck/Soldier R Clavicle/Soldier R UpperArm/Soldier R Forearm/Soldier R Hand/Soldier
+          R Finger4/Soldier R Finger41/Soldier R Finger42
+        weight: 1
+      - path: Soldier_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0149999997
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 

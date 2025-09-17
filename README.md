@@ -27,7 +27,8 @@ A lone soldier is deployed behind enemy lines, dodging fire and eliminating foes
   public enum FSMState {
       None, Patrol, Chase, Flee, // runaway
       Attack, Dead
-  } ```
+  }
+```
 
 - State transitions by player distance. Example from UpdatePatrolState():
  ```csharp

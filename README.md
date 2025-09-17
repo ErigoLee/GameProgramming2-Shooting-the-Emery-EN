@@ -24,7 +24,7 @@ A lone soldier is deployed behind enemy lines, dodging fire and eliminating foes
 - **Obstacle Avoidance** — Raycast steering with recovery from unexpected collisions to keep AIs moving.
 - **Clean Damage Model** — Only **player-tagged bullets** damage enemies; distinct tags prevent friendly fire.
 - **Clear UX Flow** — Title ↔ Manual ↔ Main Game; arrow keys to navigate, **Space** to confirm; end screen shows **elapsed time** and **result**.
-- **Audio & Visual Polish** — Shooting/Explosion SFX, composited UI images, and an **Eagle “Armature|Fly”** animation.
+- **Audio** — sound effects for shooting and explosions.
 
 ## 3. Code description
 (1) AIController.cs

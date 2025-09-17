@@ -16,9 +16,15 @@ A lone soldier is deployed behind enemy lines, dodging fire and eliminating foes
 - **Lose:** Health reaches 0 or time limit expires
 
 ## 2. Key features
-- 
-- 
-- 
+- **10-Minute Mission** — Clear all enemies before the timer runs out or the mission fails.
+- **Responsive Controls** — Move with **W/A/S/D**, click to **shoot**; auto-rotate toward the firing direction.
+- **Firing Constraints** — While shooting, forward/back input (W/S) is disabled to stabilize aim.
+- **Aim-Gated Shots** — Bullets spawn **only when the gun is aligned with the target**, at a fixed interval.
+- **Enemy AI FSM** — Patrol, Chase, Flee, Attack, Dead; **Chase/Flee** probabilities (0.8/0.2) are tunable in the Inspector.
+- **Obstacle Avoidance** — Raycast steering with recovery from unexpected collisions to keep AIs moving.
+- **Clean Damage Model** — Only **player-tagged bullets** damage enemies; distinct tags prevent friendly fire.
+- **Clear UX Flow** — Title ↔ Manual ↔ Main Game; arrow keys to navigate, **Space** to confirm; end screen shows **elapsed time** and **result**.
+- **Audio & Visual Polish** — Shooting/Explosion SFX, composited UI images, and an **Eagle “Armature|Fly”** animation.
 
 ## 3. Code description
 (1) AIController.cs
@@ -45,21 +51,18 @@ if (Distance(patrolDestination, transform.position) < 50.0f) {
 Raycasts are used to detect obstacles in front and prevent collisions by adjusting heading.
 ```csharp
 int layerMask = 1 << 9;
-		if (Physics.Raycast (transform.position, transform.forward, out hit, minumDistToAvoid, layerMask)) {
-			//Vector3 hitNormal = hit.normal;
-			//hitNormal.y = 0;
-			//targetRotation = Quaternion.LookRotation(transform.forward+hitNormal*50.0f);
-			print ("Obstacle!! lookfor");
-			int a = Random.Range (0,2);
-			if(a==0)
-				transform.Rotate(new Vector3(transform.rotation.x,transform.rotation.y-60.0f,transform.rotation.z));
-			else
-				transform.Rotate(new Vector3(transform.rotation.x,transform.rotation.y+60.0f,transform.rotation.z));
+if (Physics.Raycast (transform.position, transform.forward, out hit, minumDistToAvoid, layerMask)) {
+	//Vector3 hitNormal = hit.normal;
+	//hitNormal.y = 0;
+	//targetRotation = Quaternion.LookRotation(transform.forward+hitNormal*50.0f);
+	int a = Random.Range (0,2);
+	if(a==0)
+		transform.Rotate(new Vector3(transform.rotation.x,transform.rotation.y-60.0f,transform.rotation.z));
+	else
+		transform.Rotate(new Vector3(transform.rotation.x,transform.rotation.y+60.0f,transform.rotation.z));
 
-			transform.Rotate (new Vector3 (transform.rotation.x, transform.rotation.y - 60.0f, transform.rotation.z));
-			//transform.rotation = Quaternion.Slerp (transform.rotation,targetRotation,Time.deltaTime*curRotSpeed);
-			obSwtich = true;
-		}
+	transform.Rotate (new Vector3 (transform.rotation.x, transform.rotation.y - 60.0f, transform.rotation.z));
+	}
 ```
 
 (2) PlayerController.cs

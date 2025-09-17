@@ -38,7 +38,8 @@ if (Distance(patrolDestination, transform.position) < 50.0f) {
     // Switch to Chase or Flee
     int probability = Random.Range(0, chaseProbability + fleeProbability);
     curState = (probability < chaseProbability) ? FSMState.Chase : FSMState.Flee;
-} ```
+}
+```
 
 - Obstacle avoidance with Raycast. Look ahead and steer away when an obstacle is detected (layer mask 1 << 9):
 Raycasts are used to detect obstacles in front and prevent collisions by adjusting heading.
@@ -58,7 +59,8 @@ int layerMask = 1 << 9;
 			transform.Rotate (new Vector3 (transform.rotation.x, transform.rotation.y - 60.0f, transform.rotation.z));
 			//transform.rotation = Quaternion.Slerp (transform.rotation,targetRotation,Time.deltaTime*curRotSpeed);
 			obSwtich = true;
-		}```
+		}
+```
 
 (2) PlayerController.cs
 - Fire on left mouse release. Play SFX/animation and stop forward/back motion during the shot:
@@ -68,7 +70,8 @@ if (Input.GetMouseButtonUp(0)) {
     GetComponent<Animation>().Play("Shooting");
     shootingAni = true;
     targetSpeed = 0.0f;
-}```
+}
+```
 
 - Movement & animation blending. W/S moves forward/back and cross-fades to walking; no input cross-fades to Idle
 ```csharp
@@ -83,7 +86,8 @@ if (!shootingAni) {
         gameObject.GetComponent<Animation>().CrossFade("Idle", 0.1f);
         targetSpeed = 0.0f;
     }
-}```
+}
+```
 
 - Turning & smoothing. A/D rotates left/right; speed transitions are smoothed with Mathf.Lerp to avoid abrupt changes:
 ```csharp

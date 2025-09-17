@@ -162,7 +162,7 @@ curSpeed = Mathf.Lerp(curSpeed, targetSpeed, 7.0f * Time.deltaTime);
 
 
 ## 6. Play link
-- 
+https://erigolee.github.io/GameProgramming2-Shooting-the-Emery-EN/WebBuilds/shootingGame/
 
 
 

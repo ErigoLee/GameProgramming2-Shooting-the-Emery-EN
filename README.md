@@ -21,7 +21,13 @@ A lone soldier is deployed behind enemy lines, dodging fire and eliminating foes
 - 
 
 ## 3. Code description
-- 
+(1) AIController.cs
+Defines the enemy finite-state machine:
+ ```csharp
+  public enum FSMState {
+      None, Patrol, Chase, Flee, // runaway
+      Attack, Dead
+  }
 
 ## 4. How to play?
 ### Title Screen
@@ -42,8 +48,10 @@ A lone soldier is deployed behind enemy lines, dodging fire and eliminating foes
 - Press **Space** to return to the Title screen.
 
 ### In-Game screens
+(1) Manual Screen (Screenshot)
 <img width="406" height="225" alt="image" src="https://github.com/user-attachments/assets/6d804a42-41e3-4f62-a71a-4b76a297a108" />
-
+(2) Main Game (Screenshot)
+<img width="426" height="225" alt="image" src="https://github.com/user-attachments/assets/0e43229a-b1fb-4a82-9c98-57ddd565f39b" />
 
 ## 5. Implementation Notes & Problems Solved
 ### (1) AI Controllers (`Aicontroller.cs` — instances 2, 3, 4, 5 share the same logic)

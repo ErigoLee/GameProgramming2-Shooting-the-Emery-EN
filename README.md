@@ -1,0 +1,171 @@
+# GameProgramming2 - Shooting the Emery - EN
+
+
+
+
+
+
+## License 
+- All **source code** in this repository is licensed under the [MIT License](./LICENSE).
+- Some code and assets are adapted from **GameProgramming2 course materials** (undergraduate coursework).
+  Details are listed below.
+- Third-party **assets** (models, textures, sounds, fonts, etc.) remain under their original licenses.
+  They may **not be licensed for redistribution or in-game use** in this repository.  
+  Please check the original source pages for specific license terms.
+
+### Course References
+The following prefabs, scripts, and images are **adapted from the GameProgramming2 (undergraduate) lectures**:
+-  **Prefabs**
+  - Bullet 1, Bullet 2
+  - ParticleExplosion (including related images)
+-  **Scripts**
+  - Bullet.cs *(with additional audio-related code added by me)*
+  - AutoDestruct.cs
+
+### Assets References
+> Note: Third-party assets remain under their original licenses.
+> They may **not be licensed for redistribution or in-game use** in this repository.  
+> Please review each source page for license terms before redistribution or in-game use.
+
+- **Gun object & textures**
+  - Source: https://www.turbosquid.com/ko/3d-models/free-m1911a1-pistol-3d-model/362695
+
+- **Soldier (object & textures(Swath_texture))**
+  - Source: https://www.turbosquid.com/ko/3d-models/free-fbx-model-soldier-military-character-rigged/516949
+    
+- **Button image**
+  - Note: In this project, the term **"button"** is used to refer to a **floor object**, not a UI element.
+  - Source: https://pixabay.com/ko/photos/%EC%8A%A4%EC%BD%94%ED%8B%80%EB%9E%9C%EB%93%9C-%EC%9D%B8%EC%9D%98-%EB%B3%84%EB%AA%85-%ED%95%B4%EB%B3%80-214564/
+  - 
+- **Wall image**
+  - Source: https://pixabay.com/ko/photos/%EC%98%B7%EA%B0%90-%EA%B5%AC%EC%A1%B0-%EB%B9%A8%EA%B0%84%EC%83%89-%EC%A7%81%EB%AC%BC-68946/
+  
+- **Building1 object & textures**
+  - Textures: `tex_besi`, `texture-sumur`, `wall`, `wall_2`
+  - Source: https://free3d.com/ko/3d-model/buildings-in-the-city-471489.html
+
+- **Button2 image**
+  - Note: In this project, the term **"button"** is used to refer to a **floor object**, not a UI element.
+  - Source: https://pixabay.com/ko/photos/%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8-%EB%B2%BD-%EA%B5%AC%EC%A1%B0-%EB%8F%84%EC%8B%9C-1840731/
+
+- **Building2 object & textures**
+  - Textures: `TexturesCom_BarreIsC`, `TexturesCom_Concret`, `TexturesCom_concret`, etc. (see `Images/Building2`)
+  - Source: https://free3d.com/ko/3d-model/ruin-wall-3d-model--16179.html
+
+- **Pyramid (object)**
+  - Source: https://free3d.com/ko/3d-model/pyramid-832548.html
+
+- **Pyramid_image (image)**
+  - Source: https://pixabay.com/ko/photos/roter-%EB%AA%A8%EB%9E%98-%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4-2042738/
+
+- **Building3 object & textures**
+  - Textures: `city_house_2_Col`, `city_house_2_Nor`, etc.
+  - Source: https://free3d.com/ko/3d-model/small-city-building-2-65522.html
+
+- **Building4 object & textures**
+  - Textures: `windmill_001_base_COL`, `windmill_001_lopatky_COL`
+  - Source: https://www.turbosquid.com/ko/3d-models/3d-farm-house-1596847
+
+- **City object & textures**
+  - Textures: `Palette`
+  - Source: https://free3d.com/ko/3d-model/sci-fi-tropical-city-25746.html
+
+- **City_Wall object**
+  - Source: https://www.turbosquid.com/ko/AssetManager/Index.cfm?stgAction=getFiles&subAction=Download&intID=586045&intType=3
+
+- **Building5 object & textures**
+  - Textures: `MAF_Buildings_Roof_detail`
+  - Source: https://www.turbosquid.com/ko/3d-models/apartment-house-building-3d-model-1650425
+
+- **Building6 object & textures**
+  - Textures: `free_building_d`
+  - Source: https://www.cgtrader.com/free-3d-models/architectural/street/free-nyc-building
+
+- **Building7 object & textures**
+  - Textures: `1383`, `1383-v3`, etc. (see `images/building7`)
+  - Source: https://www.cgtrader.com/free-3d-models/exterior/office/indusrtial-building
+
+- **Building8 object & textures**
+  - Textures: `Modern Brick House_1`, etc. (see `FBX/Building8/Building8.fbm`)
+  - Source: https://www.turbosquid.com/ko/3d-models/3d-modern-brick-house-1342083
+
+- **Building9 object & textures**
+  - Textures: `Blech_01`, `Blech_01_Bump`, etc. (see `FBX/Building9/Building9.fbm`)
+  - Source: https://www.turbosquid.com/ko/3d-models/berlin-juedenstrasse-residence-dxf-free/897214
+
+- **Building10 object & textures**
+  - Textures: `Col Klein Haus_C`, `Col Klein Haus_N`, `Col Klein Haus_S`
+  - Source: https://free3d.com/ko/3d-model/small-building-1-22802.html
+
+- **Building11 object & textures**
+  - Textures: `Build10`
+  - Source: https://www.turbosquid.com/ko/3d-models/free-3ds-mode-building-games/689819
+
+- **Building12 object & textures**
+  - Textures: `DSC_5871`
+  - Source: https://www.turbosquid.com/ko/3d-models/free-realistic-old-building-3d-model/837997
+
+- **Building13 object & textures**
+  - Textures: `trade clothesdiffusemap`
+  - Source: https://free3d.com/ko/3d-model/trade-clothes-73486.html
+
+- **Cactus object & textures**
+  - Textures: `CacutsTexture` *(file name as used in project)*
+  - Source: https://www.turbosquid.com/ko/3d-models/3d-model-low-poly-cactus-1434125
+
+- **Farm wall object & textures**
+  - Textures: `tijoloTexture`
+  - Source: https://free3d.com/ko/3d-model/wall-with-grid-32677.html
+
+- **Buttom2 image**
+  - File/Material: `buttom2 <Material>`
+  - Source: https://pixabay.com/ko/photos/%EC%9E%94%EB%94%94-%EB%B0%B0%EA%B2%BD-%EB%B6%84%EC%95%BC-%EC%8B%A0%EC%84%A0%ED%95%9C-84622/
+
+- **Tree object & textures**
+  - Textures: `BranchesDiffuse`, `BranchesNormal`, etc. (see `FBX/Tree/Textures`)
+  - Source: https://www.cgtrader.com/items/848599/download-page
+
+- **Tree2 object & textures**
+  - Textures: `Tree_1`, `Tree_2`
+  - Source: https://www.cgtrader.com/items/882950/download-page
+
+- **Tree3 object & textures**
+  - Textures: `branch_dif`, `truck_bump`, `truck_dif`, etc. (see `FBX/Tree3/textures`)
+  - Source: https://www.cgtrader.com/items/738892/download-page
+
+- **Bridge object & textures**
+  - Textures: `Diffuse Map`
+  - Source: https://www.turbosquid.com/ko/3d-models/free-bridge-games-3d-model/666679
+
+- **Bath object & textures**
+  - Textures: `map_bath1_AO`, `map_bath1_Noraml`, etc. (see `FBX/Bath`)
+  - Source: https://3dexport.com/free-3dmodel-old-bath-1-322636.htm
+
+- **Basin object & textures**
+  - Textures: `Taz1-low_defaultMath_Height`, `Taz1-low_defaultMath_Normal` (see `FBX/Basin`)
+  - Source: https://3dexport.com/free-3dmodel-old-basin-307243.htm
+
+- **oldCar object & textures**
+  - Textures: `beige`, `normal` (see `FBX/Oldcar`)
+  - Source: https://www.turbosquid.com/ko/3d-models/moskvitch-402-max-free/1024740
+
+- **Eagle object**
+  - Source: https://www.turbosquid.com/ko/3d-models/eagle-rigged-륱-free/1045001
+
+- **Title_image**
+  - Source: https://pixabay.com/ko/illustrations/%EC%A0%84%EC%9F%81-%ED%8C%8C%EA%B4%B4-%EC%B6%A9%EB%8F%8C-%ED%95%B5-2930360/
+
+- **KeyBoard image**
+  - Source: https://pixabay.com/ko/vectors/%ED%82%A4%EB%B3%B4%EB%93%9C-%ED%82%A4-%EB%B2%84%ED%8A%BC-%EA%B2%B0%ED%95%A9-37762/
+
+- **Paper image**
+  - Usage: background image behind *manual scene*, *success scene*, *failed scene*
+  - Source: https://pixabay.com/ko/illustrations/%EC%9A%A9%EC%A7%80-%ED%8E%B8%EC%A7%80%EC%A7%80-%EC%96%91%ED%94%BC%EC%A7%80-%EB%8A%99%EC%9D%80-68829/
+
+- **Mouse image**
+  - Source: https://pixabay.com/ko/vectors/%EB%A7%88%EC%9A%B0%EC%8A%A4-%EC%BB%B4%ED%93%A8%ED%84%B0-%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%EA%B4%91%ED%95%99-159568/
+
+
+
+
+ 

@@ -119,9 +119,9 @@ curSpeed = Mathf.Lerp(curSpeed, targetSpeed, 7.0f * Time.deltaTime);
 - Press **Space** to return to the Title screen.
 
 ### In-Game screens
-(1) Manual Screen (Screenshot)
+(1) Manual Screen (Screenshot)<br/>
 <img width="406" height="225" alt="image" src="https://github.com/user-attachments/assets/6d804a42-41e3-4f62-a71a-4b76a297a108" />
-(2) Main Game (Screenshot)
+(2) Main Game (Screenshot)<br/>
 <img width="426" height="225" alt="image" src="https://github.com/user-attachments/assets/0e43229a-b1fb-4a82-9c98-57ddd565f39b" />
 
 ## 5. Implementation Notes & Problems Solved

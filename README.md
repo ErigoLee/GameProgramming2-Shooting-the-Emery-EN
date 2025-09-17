@@ -120,9 +120,9 @@ curSpeed = Mathf.Lerp(curSpeed, targetSpeed, 7.0f * Time.deltaTime);
 
 ### In-Game screens
 (1) Manual Screen (Screenshot)<br/>
-<img width="406" height="225" alt="image" src="https://github.com/user-attachments/assets/6d804a42-41e3-4f62-a71a-4b76a297a108" />
+<img width="406" height="225" alt="image" src="https://github.com/user-attachments/assets/6d804a42-41e3-4f62-a71a-4b76a297a108" /><br/>
 (2) Main Game (Screenshot)<br/>
-<img width="426" height="225" alt="image" src="https://github.com/user-attachments/assets/0e43229a-b1fb-4a82-9c98-57ddd565f39b" />
+<img width="426" height="225" alt="image" src="https://github.com/user-attachments/assets/0e43229a-b1fb-4a82-9c98-57ddd565f39b" /><br/>
 
 ## 5. Implementation Notes & Problems Solved
 ### (1) AI Controllers (`Aicontroller.cs` — instances 2, 3, 4, 5 share the same logic)

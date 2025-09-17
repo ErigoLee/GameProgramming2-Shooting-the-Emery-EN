@@ -1,7 +1,89 @@
 # GameProgramming2 - Shooting the Emery - EN
+An undergraduate project game developed for the Game Programming II course.  
+This project was built with Unity (C#) and basic asset pipelines.
+
+## 1. Game Concept
+A lone soldier is deployed behind enemy lines, dodging fire and eliminating foes.
+
+### Core Loop
+- Move → Dodge bullets → Shoot Emeny → Repeat
+
+### Objectives
+- Clear all enemies within 10 minutes.
+
+### Win / Lose Conditions
+- **Win:** All enemies defeated within 10 minutes
+- **Lose:** Health reaches 0 or time limit expires
+
+## 2. Key features
+- 
+- 
+- 
+
+## 3. Code description
+- 
+
+## 4. How to play?
+### Title Screen
+- **↑ / ↓**: Select **Manual** or **Start Game**
+- **Space**: Confirm selection
+
+### Manual Screen
+- **← / →**: Browse instruction pages
+- **Space**: Return to the Title screen after reading
+
+### Main Game
+- **W / S**: Move forward / backward
+- **A / D**: Move left / right
+- **Mouse Click**: Fire toward the clicked point
+
+### End of Game
+- When you **clear** or **fail** the mission, the **elapsed time** and **result** are displayed.
+- Press **Space** to return to the Title screen.
+
+### In-Game screens
+<img width="406" height="225" alt="image" src="https://github.com/user-attachments/assets/6d804a42-41e3-4f62-a71a-4b76a297a108" />
 
 
+## 5. Implementation Notes & Problems Solved
+### (1) AI Controllers (`Aicontroller.cs` — instances 2, 3, 4, 5 share the same logic)
+- Based on the **simple FSM** template learned in the GameProgramming2 lectures (used as the base skeleton).
+- On detecting the player, the AI randomly chooses to **flee (20%)** or **chase (80%)**.
+  - These probabilities are exposed as **public** fields so they can be tuned easily.
 
+### (2) Obstacle & Collider Avoidance
+- Initially attempted **Navigation Mesh**, but synchronizing reliable **shooting** and **walking** animations proved difficult, so NavMesh was dropped for this project.
+- Implemented steering by referencing **`VehicleAvoidance.cs`**, enabling the agent to avoid obstacles appropriately.
+
+### (3) Edge-Case Fix: Getting Stuck on Obstacles
+- With only the `VehicleAvoidance.cs` approach, AIs sometimes collided with unexpected geometry and could not move forward.
+- To resolve this, key obstacles were given **Rigidbody** components, and **`OnCollisionEnter()`** was used to steer/nudge away so movement could resume.
+
+### (4) Shooting: Timing, Aiming & Firing Constraints
+- To ensure bullets fire **only when the gun is pointing at the target**, an **accumulator** in **`FixedUpdate()`** uses **`Time.fixedDeltaTime`** to spawn bullets at a fixed interval.
+- While firing: set movement speed to **0** and **disable `W`/`S`** input.
+- Automatically rotate the player toward the firing direction during the shot.
+
+### (5) Damage Filtering (Player vs. AI Bullets)
+- In **`OnCollisionEnter()`**, only **player-fired** bullets reduce AI health.
+- Achieved by assigning distinct **tags** to bullets (e.g., `PlayerBullet` vs. `AIBullet`) and checking these tags in code.
+
+### (6) Player Controller**
+- `PlayerController.cs` was implemented based on the **Introduction to Game Programming** content covered in the *Game Programming Basics* course.
+
+### (7) **Soldier Object**
+- Merged the **soldier** and **gun** meshes; authored **Walking / Idle / Shooting** animations in **3ds Max** on the rigged model. (Full third-party sources are listed under **Asset References**.)
+
+### (8) **UI & Animation Components**
+- **EagleAnimation.cs**
+  - Adds logic to play the Eagle object’s `Armature|Fly` animation.
+
+- **GUISkin**
+  - Created using the project’s **GameSkin**.
+
+
+## 6. Play link
+- 
 
 
 
@@ -165,7 +247,52 @@ The following prefabs, scripts, and images are **adapted from the GameProgrammin
 - **Mouse image**
   - Source: https://pixabay.com/ko/vectors/%EB%A7%88%EC%9A%B0%EC%8A%A4-%EC%BB%B4%ED%93%A8%ED%84%B0-%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%EA%B4%91%ED%95%99-159568/
 
+- **Solider / Soldier image**
+  - Source: https://pixabay.com/ko/vectors/%EC%9C%A1%EA%B5%B0-%EC%A0%84%ED%88%AC-%EC%9C%84%EC%9E%A5-%EB%B3%B4%EB%B3%91-%EC%B4%9D-1299938/
+  - Note: File name may appear as `Solider` in the project.
 
+- **Lambert object & textures**
+  - Textures: `lambert1_Base_Color`, `llambert1_Normal` (see `FBX/Lambert`)
+  - Source: https://www.turbosquid.com/ko/3d-models/free-obj-mode-Victorian-entertainment-center/1078494
+
+- **stonewall image — used as Wall2 texture**
+  - Source: https://pixabay.com/ko/photos/%EB%85%B9%EC%8A%A8-%EB%B0%B0%EA%B2%BD-%EB%85%B9-%EC%B2%A0-%EA%B8%88%EC%86%8D-4926112/
+
+- **Win image**
+  - Source: https://pixabay.com/ko/vectors/%EC%A3%BC%EB%A8%B9-%ED%95%B8%EB%93%9C-%ED%9D%9D%EB%AF%B8%EB%A1%9C%EC%9A%B4-%EA%B2%83%EB%93%A4-1294353/
+
+- **Dead image**
+  - Source: https://pixabay.com/ko/illustrations/%EC%B4%9D-%ED%8A%B8%EB%A0%81%ED%81%AC-%EB%AC%B4%EA%B8%B0-%EB%A6%AC%EB%B3%BC%EB%B2%84-3294590/
+
+- **Success image**
+  - Source: https://pixabay.com/ko/vectors/%EC%8B%A4%EB%A3%A8%EC%97%A3-%EC%8B%9D-%ED%96%89%EB%B3%B5%ED%95%9C-%EC%84%B1%EA%B3%B5-3127948/
+
+- **235968__tommccann__explosion-01.wav (audio)**
+  - Source: https://freesound.org/people/tommccann/sounds/235968/
+
+- **Wall2 (object)**
+  - Source: https://www.turbosquid.com/ko/3d-models/medieval-wall-3d-model-1469745
+
+### Audio
+- `Voices - Patrick Patrikios.mp3`  
+  - Source: YouTube Audio Library — https://studio.youtube.com/channel/UCN2EGtmnBlsJlEh2JF4hQhw/music
+- `Awful - josh pan.mp3`  
+  - Source: YouTube Audio Library — https://studio.youtube.com/channel/UCN2EGtmnBlsJlEh2JF4hQhw/music
+- `Brooklyn and the Bridge - Nico Staf.mp3`  
+  - Source: YouTube Audio Library — https://studio.youtube.com/channel/UCN2EGtmnBlsJlEh2JF4hQhw/music
+- `Melancholia - Godmode.mp3`  
+  - Source: YouTube Audio Library — https://studio.youtube.com/channel/UCN2EGtmnBlsJlEh2JF4hQhw/music
+- `Broken - Patrick Patrikios.mp3`  
+  - Source: YouTube Audio Library — https://studio.youtube.com/channel/UCN2EGtmnBlsJlEh2JF4hQhw/music
+- `handling 50cal gun-[AudioTrimmer.com].mp3`  
+  - Source: YouTube Audio Library — https://studio.youtube.com/channel/UCN2EGtmnBlsJlEh2JF4hQhw/music  
+  - Note: Edited/trimmed via AudioTrimmer.com
+
+### Fonts
+- `HOONMAKDAEYUNPILR`  
+  - Source: https://www.gytni.com/new_gytni/license.php?document_srl=23703&mode=font&mode2=view&mode3=&utm_source=chatgpt.com
+- `SCDREAM8`  
+  - Source: https://s-core.co.kr/company/font/
 
 
  

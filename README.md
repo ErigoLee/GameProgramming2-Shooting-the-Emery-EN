@@ -163,8 +163,8 @@ curSpeed = Mathf.Lerp(curSpeed, targetSpeed, 7.0f * Time.deltaTime);
 
 ## 6. Play link
 https://erigolee.github.io/GameProgramming2-Shooting-the-Emery-EN/WebBuilds/shootingGame/
-
-
+⚠️ *Known issue*: enemies do not detect the player correctly in the web build.   
+  Until this is fixed, we **recommend using the Windows/macOS desktop builds**.
 
 ## License 
 - All **source code** in this repository is licensed under the [MIT License](./LICENSE).
